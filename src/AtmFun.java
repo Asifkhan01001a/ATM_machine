@@ -3,4 +3,5 @@ public interface AtmFun {
     void checkBalance(String pass);
     void checkStatement(String pass,int mobileNo);
     void service(String pass);
+    void changePin(String oldPin,String newPin);
 }
