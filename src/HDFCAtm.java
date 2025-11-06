@@ -6,6 +6,7 @@ public class HDFCAtm implements AtmFun{
     String pin;
     String name;
     String acNo;
+    String refId;
 
     HDFCAtm(int balance,String pin,String name){
         this.balance=balance;
