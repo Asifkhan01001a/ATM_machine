@@ -5,4 +5,6 @@ public interface AtmFun {
     void service(String pass);
     void changePin(String oldPin,String newPin);
     void remainCheck(String pass);
+    void rating(String pass);
+    void userAuth(String Pass);
 }
