@@ -7,4 +7,5 @@ public interface AtmFun {
     void remainCheck(String pass);
     void rating(String pass);
     void userAuth(String Pass);
+    void goldLoan(String Pass);
 }
