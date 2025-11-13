@@ -8,4 +8,5 @@ public interface AtmFun {
     void rating(String pass);
     void userAuth(String Pass);
     void goldLoan(String Pass);
+    void rewards(String pass);
 }
