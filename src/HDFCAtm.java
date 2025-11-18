@@ -61,7 +61,12 @@ public class HDFCAtm implements AtmFun{
 
     @Override
     public void changePin(String oldPin, String newPin) {
+        if(!pin.equals(oldPin)){
+            System.out.println("Enter Valid pin");
+        }
 
+        pin = newPin;
+        System.out.println("pin chnged succesfully");
     }
 
     @Override

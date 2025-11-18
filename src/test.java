@@ -8,6 +8,7 @@ public class test {
         hdfcAtm.checkStatement("123");
 
 //        hdfcAtm.withdraw("153",10000);
-
+        Double s=34.0/10.0;
+        System.out.println(s);
     }
 }
