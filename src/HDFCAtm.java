@@ -96,6 +96,6 @@ public class HDFCAtm implements AtmFun{
 
     @Override
     public void offers(String pass) {
-
+        System.out.println("currently no offer ");
     }
 }
