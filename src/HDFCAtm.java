@@ -86,12 +86,17 @@ public class HDFCAtm implements AtmFun{
 
     @Override
     public void goldLoan(String Pass) {
-
+        if(!pin.equals(Pass)){
+            System.out.println("pleace check your password");
+        }
+        else {
+            System.out.println("there no gold loan ");
+        }
     }
 
     @Override
     public void rewards(String pass) {
-
+        System.out.println("currently no reward ");
     }
 
     @Override
